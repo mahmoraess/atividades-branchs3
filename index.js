@@ -11,5 +11,5 @@ function calcularMedia(notas) {
 }
 
 function celsiusParaFahrenheit(celsius) {
-    return celsius ; 
+    return (celsius * 9/5) + 32;
 }
