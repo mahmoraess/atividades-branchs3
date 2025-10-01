@@ -9,3 +9,7 @@ function calcularMedia(notas) {
     }
     return soma / notas.length; 
 }
+
+function celsiusParaFahrenheit(celsius) {
+    return celsius; 
+}
