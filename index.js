@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 function saudacao(nome) {
-    return "Olá" + nome; 
-}
-=======
-
-function saudacao(nome) {
-    return "Olá" + nome; 
+    return "Olá " + nome; 
 }
 
 function calcularMedia(notas) {
@@ -13,6 +7,5 @@ function calcularMedia(notas) {
     for (let nota of notas) {
         soma += nota;
     }
-    return soma;
+    return soma / notas.length; 
 }
->>>>>>> feature/calcularMedia
